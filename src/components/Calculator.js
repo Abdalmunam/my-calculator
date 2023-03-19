@@ -22,7 +22,7 @@ function Calculator() {
 
   return (
     <div className="calculator">
-      <h1>Abdalmunam's Calculator</h1>
+      <h1>Abdalmunam Calculator</h1>
       <input type="text" className="result" value={result} readOnly />
       <div className="row">
         <button onClick={() => handleButtonClick('7')}>7</button>
